@@ -1,0 +1,77 @@
+body{
+    width: 100%; /*dessa forma o body toma a página completa*/
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
+}
+
+/* o menu principal é onde fica o logo e as redes sociais */
+
+.menu-principal{
+    width: 100%;
+    background-color:#7fa046;
+    height: 100px;
+    border-bottom:9px #546a2f;
+    border-bottom-style: solid;    
+}
+
+.logo {
+float: left;
+padding: 10px;
+padding-left: 10%;
+
+}
+
+/*menu-principal ul é onde está os ícones da rede social*/
+.menu-principal ul {
+    float: right;
+    padding-right: 15%;
+
+}
+
+.menu-principal ul li {
+    display: inline-block;
+    padding: 10px;
+    padding-top: 10%;
+
+}
+
+/*onde ficam os nomes das páginas*/
+
+.menu {
+    width: 100%;
+    height: 50px;
+    padding: none;
+    border-bottom:9px #546a2f;
+    border-bottom-style: solid;  
+    background-color: #FFD700;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+
+}
+
+
+
+.menu ul li a:hover {
+    color: #7fa046;
+
+}
+.menu ul li a {
+    color:#304637;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: impact;
+    font-size: 25px;
+
+}
+
+.body {
+    width: 100%;
+    text-align: justify;
+   
+}
